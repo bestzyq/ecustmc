@@ -110,7 +110,7 @@
             <ul>
                 <li>校内：mc.ecust.cloud</li>
                 <li>校外：mc.nakiri.site</li>
-                <li>实时地图：<a href="https://mcmap.ecustcic.eu.org/" target="_blank">点击进入（仅校内）</a> <a href="https://mcmap.ecustcic.eu.org/" target="_blank">点击进入</a></li>
+                <li>实时地图：<a href="https://map.ecust.cloud/" target="_blank">点击进入（仅校内）</a> <a href="https://mcmap.ecustcic.eu.org/" target="_blank">点击进入</a></li>
                 <li>
                 <?php
                 // 使用 file_get_contents 获取服务器信息
