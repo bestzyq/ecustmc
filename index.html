@@ -7,7 +7,7 @@
 
     <style>
         body {
-            background-image: url('https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg');
+            background-image: url('./home-hero-1200x600.webp');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -74,8 +74,8 @@
 </head>
 <body>
     <div class="top-menu">
-        <a href="/" target="_blank">首页</a>
-        <a href="/wiki.html" target="_blank">文档</a>
+        <a href="./" target="_blank">首页</a>
+        <a href="./wiki.html" target="_blank">文档</a>
     </div>
     <div class="container">
         <h1>欢迎来到ECUST Minecraft Server！</h1>
