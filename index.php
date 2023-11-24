@@ -92,7 +92,9 @@
             $serverInfoData = json_decode($serverInfoJson, true);
             
             // 输出服务器信息
-            if ($serverInfoData !== null && ($serverInfoData['version'] !== false || $serverInfoData['hint'] !== false || $serverInfoData['onlinePlayers'] !== false)) {
+            if ($serverInfoData['error'] == '无法连接到服务器') {
+                echo '无法连接到服务器';
+            } elseif ($serverInfoData !== null && ($serverInfoData['version'] !== false || $serverInfoData['hint'] !== false || $serverInfoData['onlinePlayers'] !== false)) {
                 echo '<div class="server-info">';
                 echo '服务器实时信息：';
                 echo '<ul>';
@@ -120,7 +122,9 @@
                 $serverInfoData = json_decode($serverInfoJson, true);
                 
                 // 输出服务器信息
-                if ($serverInfoData !== null && ($serverInfoData['version'] !== false || $serverInfoData['hint'] !== false || $serverInfoData['onlinePlayers'] !== false)) {
+                if ($serverInfoData['error'] == '无法连接到服务器') {
+                    echo '无法连接到服务器';
+                } elseif ($serverInfoData !== null && ($serverInfoData['version'] !== false || $serverInfoData['hint'] !== false || $serverInfoData['onlinePlayers'] !== false)) {
                     echo '<div class="server-info">';
                     echo '服务器实时信息：';
                     echo '<ul>';
