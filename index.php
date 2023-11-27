@@ -104,7 +104,7 @@
                 echo '</ul>';
                 echo '</div>';
             } else {
-                echo "无法获取服务器信息";
+                echo "服务器离线（启动方法见<a href='./wiki.html'>文档</a>）";
             }
             ?>
             </li></ul>
