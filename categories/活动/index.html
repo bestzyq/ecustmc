@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>分类: 活动 | 华东理工大学方块乐享部</title><meta name="author" content="ECUSTMC"><meta name="copyright" content="ECUSTMC"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="华东理工大学方块乐享部">
+<meta property="og:url" content="http://mc.ecustvr.top/categories/%E6%B4%BB%E5%8A%A8/index.html">
+<meta property="og:site_name" content="华东理工大学方块乐享部">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic6.zhimg.com/80/v2-9a793a9814442bab394bd2c974d7899e_1440w.jpeg">
+<meta property="article:author" content="ECUSTMC">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic6.zhimg.com/80/v2-9a793a9814442bab394bd2c974d7899e_1440w.jpeg"><link rel="shortcut icon" href="https://www.ecust.edu.cn/_upload/tpl/00/2c/44/template44/images/logo.png"><link rel="canonical" href="http://mc.ecustvr.top/categories/%E6%B4%BB%E5%8A%A8/index.html"><link rel="preconnect" href="https://cdn.iocdn.cc"/><link rel="stylesheet" href="/css/index.css?v=5.3.5"><link rel="stylesheet" href="https://cdn.iocdn.cc/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.iocdn.cc/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '分类: 活动',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'category'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://pic6.zhimg.com/80/v2-9a793a9814442bab394bd2c974d7899e_1440w.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://mcskin.ecustvr.top/"><i class="fa-fw fas fa-solid fa-shirt"></i><span> 皮肤站</span></a></div><div class="menus_item"><a class="site-page" href="/tutorial/"><i class="fa-fw fas fa-pen"></i><span> 萌新指南</span></a></div><div class="menus_item"><a class="site-page" href="/server/"><i class="fa-fw fas fa-server"></i><span> 服务器</span></a></div><div class="menus_item"><a class="site-page" href="/tools/"><i class="fa-fw fas fa-tools"></i><span> 工具</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-map"></i><span> 地图</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="http://mcmap.ecustvr.top/"><i class="fa-fw fas fa-map-pin"></i><span> 观光指南</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://out.ecust.cloud:25501/"><i class="fa-fw fas fa-map-signs"></i><span> 生存指南</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://out.ecust.cloud:25502/"><i class="fa-fw fas fa-map-marker"></i><span> 创造指南</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-book"></i><span> 列表</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://status.ecustvr.top/"><i class="fa-fw fas fa-heartbeat"></i><span> 状态监控</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://mooc1.chaoxing.com/course-ans/courseportal/243472288.html"><i class="fa-fw fas fa-graduation-cap"></i><span> 课程</span></a></li><li><a class="site-page child" href="/vote/"><i class="fa-fw fas fa-vote-yea"></i><span> 投票</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(https://pic6.zhimg.com/80/v2-43916c4b7a76bb73e73e4e6351d4d73e_1440w.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://www.ecust.edu.cn/_upload/tpl/00/2c/44/template44/images/logo.png" alt="Logo"><span class="site-name">华东理工大学方块乐享部</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://mcskin.ecustvr.top/"><i class="fa-fw fas fa-solid fa-shirt"></i><span> 皮肤站</span></a></div><div class="menus_item"><a class="site-page" href="/tutorial/"><i class="fa-fw fas fa-pen"></i><span> 萌新指南</span></a></div><div class="menus_item"><a class="site-page" href="/server/"><i class="fa-fw fas fa-server"></i><span> 服务器</span></a></div><div class="menus_item"><a class="site-page" href="/tools/"><i class="fa-fw fas fa-tools"></i><span> 工具</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-map"></i><span> 地图</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="http://mcmap.ecustvr.top/"><i class="fa-fw fas fa-map-pin"></i><span> 观光指南</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://out.ecust.cloud:25501/"><i class="fa-fw fas fa-map-signs"></i><span> 生存指南</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://out.ecust.cloud:25502/"><i class="fa-fw fas fa-map-marker"></i><span> 创造指南</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-book"></i><span> 列表</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://status.ecustvr.top/"><i class="fa-fw fas fa-heartbeat"></i><span> 状态监控</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://mooc1.chaoxing.com/course-ans/courseportal/243472288.html"><i class="fa-fw fas fa-graduation-cap"></i><span> 课程</span></a></li><li><a class="site-page child" href="/vote/"><i class="fa-fw fas fa-vote-yea"></i><span> 投票</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">活动</h1></div></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - 活动</div><div class="article-sort"><div class="article-sort-item year">2024</div><div class="article-sort-item"><a class="article-sort-item-img" href="/2024/11/13/CAB/" title="模组服——机械动力：永无止境"><img src="https://media.forgecdn.net/avatars/thumbnails/450/731/256/256/637712078711696255.png" alt="模组服——机械动力：永无止境" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-11-13T15:07:39.000Z" title="发表于 2024-11-13 23:07:39">2024-11-13</time></div><a class="article-sort-item-title" href="/2024/11/13/CAB/" title="模组服——机械动力：永无止境">模组服——机械动力：永无止境</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2024/09/14/%E4%B9%8C%E6%89%98%E9%82%A6%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85/" title="乌托邦探险之旅"><img src="https://picx.zhimg.com/80/v2-dae5701add2bdfea3be61199d1cd7c78.png" alt="乌托邦探险之旅" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-09-14T15:57:09.000Z" title="发表于 2024-09-14 23:57:09">2024-09-14</time></div><a class="article-sort-item-title" href="/2024/09/14/%E4%B9%8C%E6%89%98%E9%82%A6%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85/" title="乌托邦探险之旅">乌托邦探险之旅</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2024/06/01/%E8%84%86%E9%AA%A8%E7%97%87/" title="No Flesh Within Chest（暂译名：脆骨症）"><img src="https://pic6.zhimg.com/80/v2-a2d366daf6cfcd568f4e6d862b2fd880_1440w.png" alt="No Flesh Within Chest（暂译名：脆骨症）" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-06-01T13:46:21.000Z" title="发表于 2024-06-01 21:46:21">2024-06-01</time></div><a class="article-sort-item-title" href="/2024/06/01/%E8%84%86%E9%AA%A8%E7%97%87/" title="No Flesh Within Chest（暂译名：脆骨症）">No Flesh Within Chest（暂译名：脆骨症）</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2024/05/20/%E4%BD%99%E9%99%86%E7%B9%81%E5%85%89-%E7%9F%AD%E6%9C%9F%E9%9B%86%E4%BD%93%E7%A9%BA%E5%B2%9B%E7%94%9F%E5%AD%98%E6%B4%BB%E5%8A%A8/" title="『余陆繁光』｜ 短期空岛集体生存活动"><img src="https://pic6.zhimg.com/80/v2-cfc98318953789eee09195e3a81d87e0_1440w.png" alt="『余陆繁光』｜ 短期空岛集体生存活动" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-05-20T04:38:40.000Z" title="发表于 2024-05-20 12:38:40">2024-05-20</time></div><a class="article-sort-item-title" href="/2024/05/20/%E4%BD%99%E9%99%86%E7%B9%81%E5%85%89-%E7%9F%AD%E6%9C%9F%E9%9B%86%E4%BD%93%E7%A9%BA%E5%B2%9B%E7%94%9F%E5%AD%98%E6%B4%BB%E5%8A%A8/" title="『余陆繁光』｜ 短期空岛集体生存活动">『余陆繁光』｜ 短期空岛集体生存活动</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://pic6.zhimg.com/80/v2-9a793a9814442bab394bd2c974d7899e_1440w.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">ECUSTMC</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://gitee.com/ecustmc/"><i class="fab fa-git-alt"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://gitee.com/ecustmc" target="_blank" title="Gitee"><i class="fab fa-git-alt" style="color: #e61800;"></i></a><a class="social-icon" href="mailto:bestzyq@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://qm.qq.com/q/jqFxBzF8gU" target="_blank" title="QQ"><i class="fab fa-qq" style="color: #0052d9;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到华东理工方块乐享部！<br/><a href="https://qm.qq.com/q/jqFxBzF8gU" target="_blank">QQ群</a>：484506558</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/12/10/%E5%9C%A8%E7%BA%AFipv6%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2Union%E7%9A%AE%E8%82%A4%E7%AB%99/" title="在纯ipv6服务器部署MUA-Union皮肤站"><img src="https://pic6.zhimg.com/80/v2-03ef9fd5320aacca4aba6095d96ae47e_1440w.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在纯ipv6服务器部署MUA-Union皮肤站"/></a><div class="content"><a class="title" href="/2024/12/10/%E5%9C%A8%E7%BA%AFipv6%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2Union%E7%9A%AE%E8%82%A4%E7%AB%99/" title="在纯ipv6服务器部署MUA-Union皮肤站">在纯ipv6服务器部署MUA-Union皮肤站</a><time datetime="2024-12-10T04:51:24.000Z" title="发表于 2024-12-10 12:51:24">2024-12-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/18/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8D%87%E7%BA%A71-21-1/" title="服务器升级1.21.1&amp;合并公告🚀"><img src="https://pic6.zhimg.com/80/v2-acb61183e22a905b4477918d9c727678_1440w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="服务器升级1.21.1&amp;合并公告🚀"/></a><div class="content"><a class="title" href="/2024/11/18/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8D%87%E7%BA%A71-21-1/" title="服务器升级1.21.1&amp;合并公告🚀">服务器升级1.21.1&amp;合并公告🚀</a><time datetime="2024-11-18T13:14:06.000Z" title="发表于 2024-11-18 21:14:06">2024-11-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/11/13/CAB/" title="模组服——机械动力：永无止境"><img src="https://media.forgecdn.net/avatars/thumbnails/450/731/256/256/637712078711696255.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="模组服——机械动力：永无止境"/></a><div class="content"><a class="title" href="/2024/11/13/CAB/" title="模组服——机械动力：永无止境">模组服——机械动力：永无止境</a><time datetime="2024-11-13T15:07:39.000Z" title="发表于 2024-11-13 23:07:39">2024-11-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/09/14/%E4%B9%8C%E6%89%98%E9%82%A6%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85/" title="乌托邦探险之旅"><img src="https://picx.zhimg.com/80/v2-dae5701add2bdfea3be61199d1cd7c78.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="乌托邦探险之旅"/></a><div class="content"><a class="title" href="/2024/09/14/%E4%B9%8C%E6%89%98%E9%82%A6%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85/" title="乌托邦探险之旅">乌托邦探险之旅</a><time datetime="2024-09-14T15:57:09.000Z" title="发表于 2024-09-14 23:57:09">2024-09-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/09/13/%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9C%8B%E4%B8%8D%E5%88%B0%E7%9A%AE%E8%82%A4%E7%AB%99%E7%9A%AE%E8%82%A4%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="游戏中看不到皮肤站皮肤解决方法"><img src="https://pic6.zhimg.com/80/v2-eca7c7814bcaaa91fd41ecefbecfa670_1440w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="游戏中看不到皮肤站皮肤解决方法"/></a><div class="content"><a class="title" href="/2024/09/13/%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9C%8B%E4%B8%8D%E5%88%B0%E7%9A%AE%E8%82%A4%E7%AB%99%E7%9A%AE%E8%82%A4%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="游戏中看不到皮肤站皮肤解决方法">游戏中看不到皮肤站皮肤解决方法</a><time datetime="2024-09-13T12:07:30.000Z" title="发表于 2024-09-13 20:07:30">2024-09-13</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">教程</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B4%BB%E5%8A%A8/"><span class="card-category-list-name">活动</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%A0%94%E7%A9%B6/"><span class="card-category-list-name">研究</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%BF%90%E7%BB%B4/"><span class="card-category-list-name">运维</span><span class="card-category-list-count">14</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E6%9C%8D/" style="font-size: 1.1em; color: #999">游戏测试服</a> <a href="/tags/%E6%95%B4%E5%90%88%E5%8C%85/" style="font-size: 1.23em; color: #999ea6">整合包</a> <a href="/tags/ipv6/" style="font-size: 1.1em; color: #999">ipv6</a> <a href="/tags/Union/" style="font-size: 1.1em; color: #999">Union</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 1.5em; color: #99a9bf">网站</a> <a href="/tags/%E6%B4%BB%E5%8A%A8/" style="font-size: 1.37em; color: #99a4b2">活动</a> <a href="/tags/ECUSTG/" style="font-size: 1.1em; color: #999">ECUSTG</a> <a href="/tags/%E5%8D%87%E7%BA%A7/" style="font-size: 1.1em; color: #999">升级</a> <a href="/tags/mod/" style="font-size: 1.1em; color: #999">mod</a> <a href="/tags/%E7%9A%AE%E8%82%A4%E7%AB%99/" style="font-size: 1.23em; color: #999ea6">皮肤站</a> <a href="/tags/%E7%A9%BA%E5%B2%9B%E7%94%9F%E5%AD%98/" style="font-size: 1.1em; color: #999">空岛生存</a> <a href="/tags/%E6%A8%A1%E7%BB%84%E6%9C%8D/" style="font-size: 1.23em; color: #999ea6">模组服</a> <a href="/tags/Minecraft-15%E5%91%A8%E5%B9%B4/" style="font-size: 1.23em; color: #999ea6">Minecraft 15周年</a> <a href="/tags/Minecraft/" style="font-size: 1.1em; color: #999">Minecraft</a> <a href="/tags/1-21-1/" style="font-size: 1.1em; color: #999">1.21.1</a> <a href="/tags/MUA/" style="font-size: 1.23em; color: #999ea6">MUA</a> <a href="/tags/CDN/" style="font-size: 1.1em; color: #999">CDN</a> <a href="/tags/%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98/" style="font-size: 1.1em; color: #999">原版生存</a> <a href="/tags/%E6%97%A5%E5%BF%97/" style="font-size: 1.37em; color: #99a4b2">日志</a> <a href="/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" style="font-size: 1.1em; color: #999">常见问题</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.23em; color: #999ea6">教程</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.5em; color: #99a9bf">服务器</a> <a href="/tags/%E7%94%9F%E5%AD%98%E6%9C%8D/" style="font-size: 1.1em; color: #999">生存服</a> <a href="/tags/ECUSTS/" style="font-size: 1.1em; color: #999">ECUSTS</a> <a href="/tags/%E5%89%8D%E6%B2%BF%E8%BF%BD%E8%B8%AA/" style="font-size: 1.1em; color: #999">前沿追踪</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/12/">
+            <span class="card-archive-list-date">
+              十二月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/11/">
+            <span class="card-archive-list-date">
+              十一月 2024
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/09/">
+            <span class="card-archive-list-date">
+              九月 2024
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/07/">
+            <span class="card-archive-list-date">
+              七月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/06/">
+            <span class="card-archive-list-date">
+              六月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/05/">
+            <span class="card-archive-list-date">
+              五月 2024
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/04/">
+            <span class="card-archive-list-date">
+              四月 2024
+            </span>
+            <span class="card-archive-list-count">9</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/03/">
+            <span class="card-archive-list-date">
+              三月 2024
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">23</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-03-25T03:37:17.873Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By ECUSTMC</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div><div class="footer_custom_text">ECUST Computer Information Communication & VR Club<br/><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000758号-2</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31012102000135"><img src="https://beian.mps.gov.cn/img/ghs.png">沪公网安备31012102000135号</a><br/><span id="ipv4"></span><span id="ipv6"></span><script src="https://net.sjtu.edu.cn/script/jquery.min.js"></script><script src="https://net.sjtu.edu.cn/script/nav.js"></script></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdn.iocdn.cc/npm/hexo-theme-butterfly@5.3.5/source/js/utils.min.js"></script><script src="https://cdn.iocdn.cc/npm/hexo-theme-butterfly@5.3.5/source/js/main.min.js"></script><script src="https://cdn.iocdn.cc/npm/hexo-theme-butterfly@5.3.5/source/js/tw_cn.min.js"></script><div class="js-pjax"></div></div></body></html>
